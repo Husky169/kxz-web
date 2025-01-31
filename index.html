@@ -1,24 +1,153 @@
-
 <!DOCTYPE html>
-<html>
-	
-	<head>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-	</head>
-	
-<body>
+<html lang="de">
+  
+<head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://ibb.co/F3HTD8t"
+      type="image/icon type"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startseite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-<h1>KXZ Project</h1>
-	
-<h3>Status: Undetected</h3>
-<a href="https://direct-link.net/1069471/kxz-free" target="_blank">
-<button>Download Loader</button><br><br>
-</a> 
-<a href="https://discord.gg/ut6sPfR7jb" target="_blank">
-<button>Discord Server</button>
-</a> 
+    <style>
+      @media only screen and (max-width: 5000px) and (min-width: 500px) {
+        .home {
+          margin-left: 5% !important;
+          margin-right: 5% !important;
+        }
+      }
+    </style>
+  </head>
 
-</body>
+  <body>
+    <div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+    <header>
+      <div id="httpsCheck">
+        <ion-icon name="lock-closed" style="color: #2ecc71;"></ion-icon>
+        <span>URL Verifizierung:</span>
+        <span class="httpsTag">https://mrkrabs.shop</span>
+      </div>
+      <div class="header-container">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#offer">SHOP</a></li>
+            <li><a href="shipping.html">VERSAND</a></li>
+            <li><a href="https://t.me/MrKrabsServiceSupportBackup_bot" target="_blank">SUPPORT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="home">
+        <div class="text">
+          <img width="40%" src="img/EURONEXUS.png" />
+          <br /><br />
+          <center>
+            <div class="top-bage">
+              <p
+                style="
+                  text-align: center;
+                  background-color: rgba(29, 29, 29, 0.438);
+                  border-radius: 100px;
+                  padding: 3px;
+                "
+              >
+                <img
+                  draggable="false"
+                  class="badge"
+                  src="img/bage.png"
+                  alt=""
+                />
+                Verizifiert durch
+                <a href="https://t.me/mrkrabsserviceV2" target="_blank"
+                  >Telegram</a
+                >
+              </p>
+            </div>
+          </center>
+          <h1>Mr. Krabs</h1>
+          <span
+            >Seit über 4 Jahren aktiv, hauptsächlich im Dark Web und Westberlin,
+            jetzt Umstellung auf Clear Web, um die Reichweite zu
+            erweitern.
+            <br />
+            <strong>
+              ALLES WICHTIGE STEHT HIER, AUF TELEGRAM ODER IM BESTELLBOT!
+            </strong>
+          </span>
+          <a class="buy" href="#offer">jetzt kaufen</a>
+        </div>
+        <!-- <div class="eth"><img style="width: 50%; margin: auto; float: right; " src="img/logo.gif">
+            </div> -->
+      </div>
+      <img class="ethlogo" src="img/ethstacks.gif" />
+      <div id="offer" class="categories">
+        <h2>Unsere Angebote</h2>
+        <div class="categories-holder">
+          <div class="category-item" onclick='location.href="product/1.html"'>
+            <div class="categoryholder">
+              <span class="category-title">GEKLONTE BANKKARTEN</span>
+              <span class="category-subtitle">KAUFEN</span>
+            </div>
+          </div>
+          <div class="category-item" onclick='location.href="product/2.html"'>
+            <div class="categoryholder">
+              <span class="category-title">PAYPAL & CRYPTO KONTEN</span>
+              <span class="category-subtitle">KAUFEN</span>
+            </div>
+          </div>
+          <div class="category-item" onclick='location.href="product/3.html"'>
+            <div class="categoryholder">
+              <span class="category-title">ONLINE VISA DEBIT KARTEN</span>
+              <span class="category-subtitle">KAUFEN</span>
+            </div>
+          </div>
+
+          <div class="category-item" onclick='location.href="product/4.html"'>
+            <div class="categoryholder">
+              <span class="category-title"
+                >GEKLONTE BANKKARTEN SELBER MACHEN</span
+              >
+              <span class="category-subtitle">KAUFEN</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="alert">
+      <a href="https://t.me/mrkrabsserviceV2">UNSER TELEGRAM</a
+      ><br />
+      <img
+        id="telegram-widget"
+        src="img/telegram.png"
+        onclick="window.open('https://t.me/mrkrabsserviceV2/', '_blank')"
+        alt="Telegram Widget"
+      />
+    </div>
+  </body>
+  <script
+    src="code.jquery.com/jquery-3.6.1.min.html"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"
+  ></script>
+
 </html>
+<!-- &copy; 2024 Mr. Krabs. Alle Rechte vorbehalten. -->
